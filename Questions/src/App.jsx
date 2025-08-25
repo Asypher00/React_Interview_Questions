@@ -7,6 +7,7 @@ import ImageSlider from './components/imageSlider';
 import LoadMoreData from './components/loadMoreData';
 import TreeView from './components/treeView';
 import menus from './components/treeView/data';
+import LightDarkMode from './components/lightDarkMode';
 function App() {
 
   return (
@@ -20,7 +21,8 @@ function App() {
     {/* <StarRating /> */}
     {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} /> */}
     {/* <LoadMoreData /> */}
-    <TreeView menus={menus}/>
+    {/* <TreeView menus={menus}/> */}
+    <LightDarkMode />
     </>
   )
 }
