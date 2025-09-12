@@ -8,6 +8,7 @@ import LoadMoreData from './components/loadMoreData';
 import TreeView from './components/treeView';
 import menus from './components/treeView/data';
 import LightDarkMode from './components/lightDarkMode';
+import ScrollIndicator from './components/scrollIndicator';
 function App() {
 
   return (
@@ -22,9 +23,11 @@ function App() {
     {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} /> */}
     {/* <LoadMoreData /> */}
     {/* <TreeView menus={menus}/> */}
-    <LightDarkMode />
+    {/* <LightDarkMode /> */}
+    <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
     </>
   )
 }
 
 export default App
+
