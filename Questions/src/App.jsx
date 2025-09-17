@@ -10,6 +10,7 @@ import menus from './components/treeView/data';
 import LightDarkMode from './components/lightDarkMode';
 import ScrollIndicator from './components/scrollIndicator';
 import TabsTest from './components/customTabs/tab-test';
+import ModalTest from './components/customModalPopup/modal-test';
 function App() {
 
   return (
@@ -26,7 +27,8 @@ function App() {
     {/* <TreeView menus={menus}/> */}
     {/* <LightDarkMode /> */}
     {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
-    <TabsTest />
+    {/* <TabsTest /> */}
+    <ModalTest />
     </>
   )
 }
